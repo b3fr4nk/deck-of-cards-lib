@@ -95,6 +95,11 @@ class Deck {
   reveal():Card {
     return this.cards[0]
   }
+
+  shuffleCard(card:Card) {
+    this.cards.push(card)
+    this.shuffle()
+  }
 }
 
 export default Deck;
