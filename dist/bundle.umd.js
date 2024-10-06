@@ -168,6 +168,10 @@
       Deck.prototype.reveal = function () {
           return this.cards[0];
       };
+      Deck.prototype.shuffleCard = function (card) {
+          this.cards.push(card);
+          this.shuffle();
+      };
       return Deck;
   }());
 

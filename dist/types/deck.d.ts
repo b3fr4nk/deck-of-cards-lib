@@ -12,5 +12,6 @@ declare class Deck {
     addCard(card: Card): void;
     slipCard(card: Card): void;
     reveal(): Card;
+    shuffleCard(card: Card): void;
 }
 export default Deck;
