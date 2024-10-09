@@ -1,0 +1,17 @@
+{
+  "name": "test_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "deck-of-cards-lib": "^1.0.0",
+    "i": "^0.3.7",
+    "npm": "^10.9.0"
+  }
+}
